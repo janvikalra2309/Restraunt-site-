@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> La Roma Pizzerias </title>
+<link rel="stylesheet" href="style1.css">
+<style>
+body{
+   background-image:url('login.jpg');
+}
+</style>
+</head>
+<body>
+  
+ <div class="login-page"> 
+ <div class="form">
+      <form> 
+   <input type="text" name="username" placeholder="Name" required>
+   <input type="Email" name="emailid" placeholder="Email ID" required>
+   <input type="number" name="number" placeholder="Mobile Number" maxlength="10">
+   <input type="text"  name="pref" placeholder="Veg/Non-Veg/Both" required>
+      <input type="number" name="number" placeholder="Number of Members">
+	     <input type="time" name="number" placeholder="04:30" >
+   <button>Book A Table</button><br>
+   </form>
+    
+
+ </div>
+ </div>
+
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'> </script>
+ 
+ <script>
+ $('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+ 
+ </script>
+</body>
+</html>
+ 
